@@ -1,0 +1,155 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* ===== HEADER / NAVIGATION ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 48px;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-placeholder {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #8B5CF6, #F97316, #22C55E, #3B82F6);
+  border-radius: 8px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #7C3AED;
+  border: 2px solid #7C3AED;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #7C3AED;
+}
+
+.signup-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.signup-btn span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.user-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #374151;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 48px;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.hero-text h1 .purple { color: #8B5CF6; }
+.hero-text h1 .orange { color: #F97316; }
+.hero-text h1 .green { color: #22C55E; }
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-secondary {
+  background-color: #E5E7EB;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #9CA3AF;
+  color: #fff;
+}
+
+/* ===== IMAGE PLACEHOLDER ===== */
+.hero-image {
+  flex-shrink: 0;
+}
+
+.image-placeholder {
+  width: 320px;
+  height: 220px;
+  background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-size: 14px;
+}
