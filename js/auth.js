@@ -122,7 +122,7 @@ if (passwordResetForm) {
 
 // ===== SOCIAL LOGIN BUTTONS =====
 const googleBtn = document.querySelector('.btn-google');
-const appleBtn = document.querySelector('.btn-apple');
+const microsoftBtn = document.querySelector('.btn-microsoft');
 
 if (googleBtn) {
   googleBtn.addEventListener('click', () => {
@@ -131,9 +131,9 @@ if (googleBtn) {
   });
 }
 
-if (appleBtn) {
-  appleBtn.addEventListener('click', () => {
-    console.log('Apple login clicked');
-    alert('Apple login would happen here (This is a demo)');
+if (microsoftBtn) {
+  microsoftBtn.addEventListener('click', () => {
+    console.log('Microsoft login clicked');
+    alert('Microsoft login would happen here (This is a demo)');
   });
 }
